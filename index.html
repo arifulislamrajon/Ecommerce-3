@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- swiper cdn link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <!-- bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- css file link -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="header_top d-flex align-items-center justify-content-between mb-2">
+            <div>
+                <span>(+01) - 2345 - 6789</span>
+                <span>Our location</span>
+            </div>
+            
+            <p class="m-0">Super Value Deals - Save more with coupons</p>
+            
+            <a href="#">Log In / Sign Up</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <nav class="navbar navbar-expand-lg custom_navbar">
+                <div class="container-fluid">
+                  <a class="navbar-brand logo me-5" href="#"><img src="assets/images/logo.svg" alt=""></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+                      <li class="nav-item"><a class="nav-link fw-bold active" aria-current="page" href="#">Home</a></li>
+                      <li class="nav-item"><a class="nav-link fw-bold" href="#">Shop</a></li>
+                      <li class="nav-item"><a class="nav-link fw-bold" href="#">My Account</a></li>
+                      <li class="nav-item"><a class="nav-link fw-bold" href="#">Compare</a></li>
+                      <li class="nav-item"><a class="nav-link fw-bold" href="#">Login</a></li>
+                    </ul>
+
+                    <div class="d-flex gap-3 align-items-center">
+                        <form class="d-flex position-relative align-items-center search_bar" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search for items..." aria-label="Search">
+                            <img src="assets/images/search.png" alt="" class="position-absolute">
+                        </form>
+
+                        <a href="#" class="nav_img position-relative"><img src="assets/images/icon-heart.svg" alt=""><span class="notification position-absolute d-flex align-items-center justify-content-center rounded-circle">0</span></a>
+                        <a href="#" class="nav_img position-relative"><img src="assets/images/icon-cart.svg" alt=""><span class="notification position-absolute d-flex align-items-center justify-content-center rounded-circle">0</span></a>
+                    </div>
+                  </div>
+                </div>
+        </nav>
+
+        <section class="hero row d-flex align-items-center">
+            <div class="hero_left col-lg-6">
+                <p class="sub_title fw-bold">Hot promotions</p>
+                <h1 class="">Fashion Trending</h1>
+                <h1 class="collection">Great Collection</h1>
+                <p class="discount mt-3">Save more with coupons & up to 20% off</p>
+                <a href="#" class="btn fw-bold mt-2 hero_btn">Shop Now</a>
+            </div>
+
+            <div class="hero_right col-lg-6">
+                <img src="assets/images/home-img.png" alt="">
+            </div>
+        </section>
+
+        <section id="categorie" class="overflow-hidden mb-4">
+            <h2 class="mb-5">Popular <span>Categories</span></h2>
+
+            <div class="swiper mySwiper">
+                <div class="categories d-flex mb-5 gap-3 swiper-wrapper">
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+
+                    <div class="categorie card p-3 rounded-4 text-center border swiper-slide">
+                        <img src="assets/images/product-5-2.jpg" alt="" class="w-100 rounded-4 card-img">
+                        <a href="#" class="d-block mt-3 fw-bold stretched-link card-link">Hats</a>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next rounded-circle"></div>
+                <div class="swiper-button-prev rounded-circle"></div>
+            </div>
+        </section>
+
+        <section id="product" class="mb-5">
+            <div class="gap-3 d-flex product_tabs">
+                <span class="px-3 py-2 rounded fw-bolder border active">Featured</span>
+                <span class="px-3 py-2 rounded fw-bolder">Popular</span>
+                <span class="px-3 py-2 rounded fw-bolder">New added</span>
+            </div>
+
+        </section>
+    </div>
+
+<!-- swiper cdn link -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- bootstrap js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!-- js file link -->
+<script src="assets/js/script.js"></script>
+</body>
+</html>
